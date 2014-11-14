@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center" >
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txtNoNetwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center"  
+        android:layout_weight="0"/>
+
+    <Button
+        android:id="@+id/buttonRetry"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_weight="0"/>
+
+    <Button
+        android:id="@+id/buttonWiFi"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:layout_weight="0" />
+
+    <Button
+        android:id="@+id/buttonData"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:layout_weight="0"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  
+        android:layout_weight="1"/>
+
+</LinearLayout>

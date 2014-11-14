@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Noja Tour</string>
+    <string name="txtEmailTitle">سایت و ایمیل:</string>
+    <string name="txtEmail">www.nojasystem.com\n\narvin.karimi@gmail.com</string>
+    <string name="txtTelTitle">تلفن:</string>
+    <string name="txtTel">09126388091</string>
+    <string name="txtSoftwareName">نوژا تور</string>
+    <string name="txtDevelopTitle">توسعه دهنده:</string>
+    <string name="txtCompanyUrl">www.sabaware.com</string>
+
+</resources>

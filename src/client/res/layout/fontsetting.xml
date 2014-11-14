@@ -1,0 +1,86 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall9">
+
+        <ImageView
+        android:id="@+id/imageViewTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="-2sp"
+    	android:layout_marginRight="15sp"
+        android:src="@drawable/header"
+        android:layout_alignTop="@+id/frameLayout"
+        android:scaleType="fitXY" />
+    
+<LinearLayout
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="90sp"
+    android:layout_marginLeft="15sp"
+    android:layout_marginRight="15sp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titlefontsetting" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="255sp"
+        android:layout_height="wrap_content"
+        android:textSize="19sp" 
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="255sp"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="255sp"
+        android:layout_height="wrap_content" 
+        android:textSize="19sp" 
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="255sp"
+        android:layout_height="wrap_content"
+        android:textSize="19sp" 
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="255sp"
+        android:layout_height="wrap_content"
+        android:textSize="19sp" 
+        android:onClick="onClick"/>
+
+</LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageViewBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/frameLayout"
+            android:layout_marginLeft="15sp"
+        	android:layout_marginBottom="-2sp"
+    		android:layout_marginRight="15sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/footer" />
+
+</RelativeLayout>

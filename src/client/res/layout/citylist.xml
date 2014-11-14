@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall9">
+
+        <ImageView
+        android:id="@+id/imageViewTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="-2sp"
+    	android:layout_marginRight="15sp"
+        android:src="@drawable/header"
+        android:layout_alignTop="@+id/CityListLayout"
+        android:scaleType="fitXY" />
+        
+<RelativeLayout
+    android:id="@+id/CityListLayout"   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="30sp"
+    android:layout_marginLeft="15sp"
+    android:layout_marginRight="15sp" >
+    
+	<ListView
+        android:id="@+id/CityList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </ListView>
+    
+</RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageViewBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/CityListLayout"
+            android:layout_marginLeft="15sp"
+        	android:layout_marginBottom="-2sp"
+    		android:layout_marginRight="15sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/footer" />
+
+</RelativeLayout>

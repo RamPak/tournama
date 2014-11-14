@@ -1,0 +1,156 @@
+body{
+	font-size:12px;
+	font-family:tahoma;
+	color:#6d6d6d;
+	padding:0px;
+	margin:0px;
+}
+table,td,tr,th,input,select,div,span,textarea{
+	font-family:tahoma;
+	font-size:12px;
+}
+input{
+	text-align:center;
+}
+input[type=text],input[type=password]{
+	width:200px;
+}
+
+form{
+	padding:0px;
+	margin:0px;
+}
+
+a:link{
+	font-size:11px;
+	font-family:tahoma;
+	color:#744;
+	text-decoration:none;
+}
+a:visited{
+	font-size:11px;
+	font-family:tahoma;
+	color:#744;
+	text-decoration:none;
+}
+a:hover{
+	font-size:11px;
+	font-family:tahoma;
+	color:orange;
+	text-decoration:none;
+}
+.tx0{
+	font-family: tahoma;
+	font-size:10px;
+}
+.tx1{
+	font-family: tahoma;
+	font-size:11px;
+}
+.tx2{
+	font-family: tahoma;
+	font-size:12px;
+}
+.er0{
+	font-family: tahoma;
+	font-size:10px;
+	color:red;
+}
+.er1{
+	font-family: tahoma;
+	font-size:11px;
+	color:red;
+}
+.er2{
+	font-family: tahoma;
+	font-size:12px;
+	color:red;
+}
+
+.submit0{
+	background-image:url('../templates/Default/admin/bg1.jpg');
+	font-size:10px;
+	font-family:tahoma;
+	border-color:#cccccc;
+	border-width:1px;
+	background-color:white;
+	color:#555555;
+}
+.submit1{
+	background-image:url('../templates/Default/admin/bg1.jpg');
+	font-size:11px;
+	font-family:tahoma;
+	border-color:#cccccc;
+	border-width:1px;
+	background-color:white;
+	color:#555555;
+}
+
+.submit2{
+	background-image:url('../templates/Default/admin/bg1.jpg');
+	font-size:12px;
+	font-family:tahoma;
+	border-color:#cccccc;
+	border-width:1px;
+	background-color:white;
+	color:#555555;
+}
+.input0{
+	text-align:justify;
+	font-family: tahoma;
+	font-size:10px;
+}
+.input1{
+	text-align:;
+	font-family: tahoma;
+	font-size:11px;
+}
+.input2{
+	text-align:;
+	font-family: tahoma;
+	font-size:12px;
+}
+
+.select0{
+	text-align:justify;
+	font-family: tahoma;
+	font-size:10px;
+}
+.select1{
+	text-align:;
+	font-family: tahoma;
+	font-size:11px;
+}
+.select2{
+	text-align:;
+	font-family: tahoma;
+	font-size:12px;
+}
+
+
+
+
+#dhtmltooltip{
+position: absolute;
+left: -300px;
+width: 150px;
+border: 1px solid black;
+padding: 2px;
+background-color: lightyellow;
+visibility: hidden;
+z-index: 100;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+#dhtmlpointer{
+position:absolute;
+left: -300px;
+z-index: 101;
+visibility: hidden;
+}
+
+
+
+
+

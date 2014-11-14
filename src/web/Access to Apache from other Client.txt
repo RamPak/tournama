@@ -1,0 +1,8 @@
+<Directory "/home/domain/www">
+	
+
+
+
+	#Require local
+      	Require all granted
+</Directory>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wall9" >
+
+    
+    <GridView
+        android:id="@+id/gridGroup"
+		android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:layout_above="@+id/footer"
+        android:numColumns="2" 
+        android:gravity="center">
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#56d5b9"
+        android:gravity="center"
+         >
+
+        <Button
+            android:id="@+id/buttonAbout"
+            android:layout_width="100sp"
+            android:layout_height="40sp"
+            android:text="درباره" 
+            android:layout_marginRight="20sp"
+            android:background="@drawable/btn_model"
+            android:onClick="onClick"/>
+        
+        <Button
+            android:id="@+id/buttonContact"
+            android:layout_width="100sp"
+            android:layout_height="40sp"
+            android:text="تماس با ما"
+            android:layout_marginLeft="20sp" 
+            android:background="@drawable/btn_model"
+            android:onClick="onClick"/>
+         
+    </LinearLayout>
+
+</RelativeLayout>
